@@ -1,0 +1,57 @@
+➜  ~ ps
+  PID TTY           TIME CMD
+19311 ttys000    0:00.27 -zsh
+➜  ~ sleep 30 &
+[1] 19584
+➜  ~ ps
+  PID TTY           TIME CMD
+19311 ttys000    0:00.29 -zsh
+19584 ttys000    0:00.00 sleep 30
+➜  ~ kill 19584
+[1]  + 19584 terminated  sleep 30                                               
+➜  ~ sleep 30
+^Z
+[1]  + 20353 suspended  sleep 30
+➜  ~ bg
+[1]  + 20353 continued  sleep 30
+➜  ~ 
+[1]  + 20353 done       sleep 30
+➜  ~ sleep 300 &
+[1] 21847
+➜  ~ sleep 200
+^Z
+[2]  + 22084 suspended  sleep 200
+➜  ~ sleep 100
+^Z
+[3]  + 22325 suspended  sleep 100
+➜  ~ jobs
+[1]    running    sleep 300
+[2]  - suspended  sleep 200
+[3]  + suspended  sleep 100
+➜  ~ fg %1
+[1]    21847 running    sleep 300
+^Z
+[1]  + 21847 suspended  sleep 300
+➜  ~ jobs
+[1]  + suspended  sleep 300
+[2]    suspended  sleep 200
+[3]  - suspended  sleep 100
+➜  ~ bg %3
+[3]    22325 continued  sleep 100
+➜  ~ jobs
+[1]  + suspended  sleep 300
+[2]  - suspended  sleep 200
+[3]    running    sleep 100
+➜  ~ ps
+  PID TTY           TIME CMD
+19311 ttys000    0:00.40 -zsh
+21847 ttys000    0:00.00 sleep 300
+22084 ttys000    0:00.00 sleep 200
+22325 ttys000    0:00.00 sleep 100
+➜  ~ kill 21847
+[1]  + 21847 terminated  sleep 300                                              
+➜  ~ kill 22084
+[2]  + 22084 terminated  sleep 200                                              
+➜  ~ kill 22325
+[3]  + 22325 terminated  sleep 100                                              
+➜  ~ jobs

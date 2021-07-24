@@ -1,0 +1,464 @@
+➜  ~ cd unix_tests
+➜  unix_tests cat > skills2.txt
+Internet
+Unix
+Bash
+➜  unix_tests cat >> skills2.txt
+Html
+Css
+Javascript
+Phyton
+React
+➜  unix_tests sort > skills2.txt
+➜  unix_tests sort < skills2.txt
+➜  unix_tests cat skills2.txt
+➜  unix_tests cat > skills2.txt
+Internet
+Unix
+Bash
+Html
+Css
+Javascript
+Phyton
+React
+➜  unix_tests sort < skills2.txt
+Bash
+Css
+Html
+Internet
+Javascript
+Phyton
+React
+Unix
+➜  unix_tests wc -l skills2.txt 
+       8 skills2.txt
+➜  unix_tests sort < skills2.txt | tail -3 > top_skills.txt
+➜  unix_tests cat top_skills.txt
+Phyton
+React
+Unix
+➜  unix_tests cat > rm top_skills.txt
+➜  unix_tests rm top_skills.txt
+➜  unix_tests ls
+countries.txt rm            skills2.txt
+➜  unix_tests sort < skills2.txt | head -3 > top_skills.txt
+➜  unix_tests cat top_skills.txt
+Bash
+Css
+Html
+➜  unix_tests cat > phrases2.txt
+Eu estudo programação na Trybe
+As aulas são de segunda a sexta
+Me chamo Maria Fernanda e tenho 24 anos
+➜  unix_tests grep br phrases2.txt | wc -l
+       0
+➜  unix_tests grep -v phrases2.txt | wl -l
+zsh: command not found: wl
+^[[C    
+➜  unix_tests grep -v phrases2.txt | wc -l
+       0
+➜  unix_tests grep -iv phrases2.txt | wc -l
+br
+       1
+➜  unix_tests grep -v br phrases2.txt | wc -l
+       3
+➜  unix_tests cat >> phrases2.txt
+Brasil
+Inglaterra
+➜  unix_tests cat phrases2.txt countries.txt > bunch_of_things.txt
+➜  unix_tests cat bunch_of_things.txt
+Eu estudo programação na Trybe
+As aulas são de segunda a sexta
+Me chamo Maria Fernanda e tenho 24 anos
+Brasil
+Inglaterra
+➜  unix_tests cat bunch_of_things.txt
+Eu estudo programação na Trybe
+As aulas são de segunda a sexta
+Me chamo Maria Fernanda e tenho 24 anos
+Brasil
+Inglaterra
+➜  unix_tests cat countries.txt
+Afeganistão
+África do Sul
+Akrotiri
+Albânia
+Alemanha
+Andorra
+Angola
+Anguila
+Antárctida
+Antígua e Barbuda
+Arábia Saudita
+Arctic Ocean
+Argélia
+Argentina
+Arménia
+Aruba
+Ashmore and Cartier Islands
+Atlantic Ocean
+Austrália
+Áustria
+Azerbaijão
+Baamas
+Bangladeche
+Barbados
+Barém
+Bélgica
+Belize
+Benim
+Bermudas
+Bielorrússia
+Birmânia
+Bolívia
+Bósnia e Herzegovina
+Botsuana
+Brasil
+Brunei
+Bulgária
+Burquina Faso
+Burúndi
+Butão
+Cabo Verde
+Camarões
+Camboja
+Canadá
+Catar
+Cazaquistão
+Chade
+Chile
+China
+Chipre
+Clipperton Island
+Colômbia
+Comores
+Congo-Brazzaville
+Congo-Kinshasa
+Coral Sea Islands
+Coreia do Norte
+Coreia do Sul
+Costa do Marfim
+Costa Rica
+Croácia
+Cuba
+Curacao
+Dhekelia
+Dinamarca
+Domínica
+Egipto
+Emiratos Árabes Unidos
+Equador
+Eritreia
+Eslováquia
+Eslovénia
+Espanha
+Estados Unidos
+Estónia
+Etiópia
+Faroé
+Fiji
+Filipinas
+Finlândia
+França
+Gabão
+Gâmbia
+Gana
+Gaza Strip
+Geórgia
+Geórgia do Sul e Sandwich do Sul
+Gibraltar
+Granada
+Grécia
+Gronelândia
+Guame
+Guatemala
+Guernsey
+Guiana
+Guiné
+Guiné Equatorial
+Guiné-Bissau
+Haiti
+Honduras
+Hong Kong
+Hungria
+Iémen
+Ilha Bouvet
+Ilha do Natal
+Ilha Norfolk
+Ilhas Caimão
+Ilhas Cook
+Ilhas dos Cocos
+Ilhas Falkland
+Ilhas Heard e McDonald
+Ilhas Marshall
+Ilhas Salomão
+Ilhas Turcas e Caicos
+Ilhas Virgens Americanas
+Ilhas Virgens Britânicas
+Índia
+Indian Ocean
+Indonésia
+Irão
+Iraque
+Irlanda
+➜  unix_tests cat phrases2.txt countries.txt > new.txt
+➜  unix_tests cat nex.txt 
+cat: nex.txt: No such file or directory
+➜  unix_tests cat new.txt
+Eu estudo programação na Trybe
+As aulas são de segunda a sexta
+Me chamo Maria Fernanda e tenho 24 anos
+Brasil
+Inglaterra
+Afeganistão
+África do Sul
+Akrotiri
+Albânia
+Alemanha
+Andorra
+Angola
+Anguila
+Antárctida
+Antígua e Barbuda
+Arábia Saudita
+Arctic Ocean
+Argélia
+Argentina
+Arménia
+Aruba
+Ashmore and Cartier Islands
+Atlantic Ocean
+Austrália
+Áustria
+Azerbaijão
+Baamas
+Bangladeche
+Barbados
+Barém
+Bélgica
+Belize
+Benim
+Bermudas
+Bielorrússia
+Birmânia
+Bolívia
+Bósnia e Herzegovina
+Botsuana
+Brasil
+Brunei
+Bulgária
+Burquina Faso
+Burúndi
+Butão
+Cabo Verde
+Camarões
+Camboja
+Canadá
+Catar
+Cazaquistão
+Chade
+Chile
+China
+Chipre
+Clipperton Island
+Colômbia
+Comores
+Congo-Brazzaville
+Congo-Kinshasa
+Coral Sea Islands
+Coreia do Norte
+Coreia do Sul
+Costa do Marfim
+Costa Rica
+Croácia
+Cuba
+Curacao
+Dhekelia
+Dinamarca
+Domínica
+Egipto
+Emiratos Árabes Unidos
+Equador
+Eritreia
+Eslováquia
+Eslovénia
+Espanha
+Estados Unidos
+Estónia
+Etiópia
+Faroé
+Fiji
+Filipinas
+Finlândia
+França
+Gabão
+Gâmbia
+Gana
+Gaza Strip
+Geórgia
+Geórgia do Sul e Sandwich do Sul
+Gibraltar
+Granada
+Grécia
+Gronelândia
+Guame
+Guatemala
+Guernsey
+Guiana
+Guiné
+Guiné Equatorial
+Guiné-Bissau
+Haiti
+Honduras
+Hong Kong
+Hungria
+Iémen
+Ilha Bouvet
+Ilha do Natal
+Ilha Norfolk
+Ilhas Caimão
+Ilhas Cook
+Ilhas dos Cocos
+Ilhas Falkland
+Ilhas Heard e McDonald
+Ilhas Marshall
+Ilhas Salomão
+Ilhas Turcas e Caicos
+Ilhas Virgens Americanas
+Ilhas Virgens Britânicas
+Índia
+Indian Ocean
+Indonésia
+Irão
+Iraque
+Irlanda
+➜  unix_tests sort new.txt -o new.txt
+➜  unix_tests cat new.txt
+Afeganistão
+África do Sul
+Akrotiri
+Albânia
+Alemanha
+Andorra
+Angola
+Anguila
+Antárctida
+Antígua e Barbuda
+Arábia Saudita
+Arctic Ocean
+Argélia
+Argentina
+Arménia
+Aruba
+As aulas são de segunda a sexta
+Ashmore and Cartier Islands
+Atlantic Ocean
+Austrália
+Áustria
+Azerbaijão
+Baamas
+Bangladeche
+Barbados
+Barém
+Bélgica
+Belize
+Benim
+Bermudas
+Bielorrússia
+Birmânia
+Bolívia
+Bósnia e Herzegovina
+Botsuana
+Brasil
+Brasil
+Brunei
+Bulgária
+Burquina Faso
+Burúndi
+Butão
+Cabo Verde
+Camarões
+Camboja
+Canadá
+Catar
+Cazaquistão
+Chade
+Chile
+China
+Chipre
+Clipperton Island
+Colômbia
+Comores
+Congo-Brazzaville
+Congo-Kinshasa
+Coral Sea Islands
+Coreia do Norte
+Coreia do Sul
+Costa Rica
+Costa do Marfim
+Croácia
+Cuba
+Curacao
+Dhekelia
+Dinamarca
+Domínica
+Egipto
+Emiratos Árabes Unidos
+Equador
+Eritreia
+Eslováquia
+Eslovénia
+Espanha
+Estados Unidos
+Estónia
+Etiópia
+Eu estudo programação na Trybe
+Faroé
+Fiji
+Filipinas
+Finlândia
+França
+Gabão
+Gâmbia
+Gana
+Gaza Strip
+Geórgia
+Geórgia do Sul e Sandwich do Sul
+Gibraltar
+Granada
+Grécia
+Gronelândia
+Guame
+Guatemala
+Guernsey
+Guiana
+Guiné
+Guiné Equatorial
+Guiné-Bissau
+Haiti
+Honduras
+Hong Kong
+Hungria
+Iémen
+Ilha Bouvet
+Ilha Norfolk
+Ilha do Natal
+Ilhas Caimão
+Ilhas Cook
+Ilhas Falkland
+Ilhas Heard e McDonald
+Ilhas Marshall
+Ilhas Salomão
+Ilhas Turcas e Caicos
+Ilhas Virgens Americanas
+Ilhas Virgens Britânicas
+Ilhas dos Cocos
+Índia
+Indian Ocean
+Indonésia
+Inglaterra
+Irão
+Iraque
+Irlanda
+Me chamo Maria Fernanda e tenho 24 anos
+➜  unix_tests 

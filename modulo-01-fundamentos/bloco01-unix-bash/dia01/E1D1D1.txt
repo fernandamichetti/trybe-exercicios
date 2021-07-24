@@ -1,0 +1,280 @@
+#Exercício1
+➜  unix_tests 
+curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1842  100  1842    0     0   7280      0 --:--:-- --:--:-- --:--:--  7280
+
+#Exercício 2
+➜  unix_tests cat countries.txt
+Afghanistan
+Albania
+Algeria
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+Oman
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+Romania
+Russian Federation
+Rwanda
+St Kitts & Nevis
+St Lucia
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe%
+
+#Exercício 3
+➜  unix_tests less countries.txt
+
+#Exercício 4
+➜  unix_tests less countries.txt
+➜  unix_tests /Zambia
+
+#Exercício 5
+➜  unix_tests grep Brazil countries.txt
+
+#Exercício 6
+➜  unix_tests grep -i brazil countries.txt
+
+#Exercício 7
+➜  unix_tests touch phrases.txt
+➜  unix_tests grep -iv "fox" phrases.txt
+Primeiro exercício na Trybe de Unix e Bash - Parte 1
+Iniciei na Trybe dia 12 de Julho de 2020
+Nesse exercício preciso criar várias frases
+O Lupin é o meu cachorro e ele me faz companhia durante as aulas
+Me chamo Maria Fernanda e tenho 24 anos 
+
+#Exercício 8
+➜  unix_tests wc -w phrases.txt
+      48 phrases.txt
+
+#Exercício 9
+➜  unix_tests wc -l phrases.txt
+       4 phrases.txt
+
+#Exercício 10
+➜  unix_tests touch empty.tbt
+➜  unix_tests touch empty.pdf
+
+#Exercício 11
+➜  unix_tests ls
+countries.txt empty.pdf     empty.tbt     phrases.txt
+
+#Exercício 12
+➜  unix_tests ls *.txt
+countries.txt phrases.txt
+
+
+#Exercício 13
+➜  unix_tests ls *.tbt *.txt
+countries.txt empty.tbt     phrases.txt
+
+#Exercício 14
+➜  unix_tests man ls
+
+
+LS(1)                     BSD General Commands Manual                    LS(1)
+
+NAME
+     ls -- list directory contents
+
+SYNOPSIS
+     ls [-ABCFGHLOPRSTUW@abcdefghiklmnopqrstuwx1%] [file ...]
+
+DESCRIPTION
+     For each operand that names a file of a type other than directory, ls
+     displays its name as well as any requested, associated information.  For
+     each operand that names a file of type directory, ls displays the names
+     of files contained within that directory, as well as any requested, asso-
+     ciated information.
+
+     If no operands are given, the contents of the current directory are dis-
+     played.  If more than one operand is given, non-directory operands are
+     displayed first; directory and non-directory operands are sorted sepa-
+     rately and in lexicographical order.
+
+     The following options are available:
+
+:

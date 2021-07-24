@@ -1,0 +1,35 @@
+➜  unix_tests ls -l
+total 48
+-rw-r--r--  1 fmchtt  staff   124 16 Jul 08:26 bunch_of_things.txt
+-rw-r--r--@ 1 fmchtt  staff  1357 16 Jul 08:28 countries.txt
+-rw-------  1 fmchtt  staff  1481 16 Jul 08:31 new.txt
+-rw-r--r--  1 fmchtt  staff   124 16 Jul 08:26 phrases2.txt
+-rw-r--r--  1 fmchtt  staff    52 16 Jul 08:20 skills2.txt
+-rw-r--r--  1 fmchtt  staff    14 16 Jul 08:23 top_skills.txt
+➜  unix_tests chmod a+w bunch_of_things.txt
+➜  unix_tests ls -l
+total 48
+-rw-rw-rw-  1 fmchtt  staff   124 16 Jul 08:26 bunch_of_things.txt
+-rw-r--r--@ 1 fmchtt  staff  1357 16 Jul 08:28 countries.txt
+-rw-------  1 fmchtt  staff  1481 16 Jul 08:31 new.txt
+-rw-r--r--  1 fmchtt  staff   124 16 Jul 08:26 phrases2.txt
+-rw-r--r--  1 fmchtt  staff    52 16 Jul 08:20 skills2.txt
+-rw-r--r--  1 fmchtt  staff    14 16 Jul 08:23 top_skills.txt
+➜  unix_tests chmod a-w bunch_of_things.txt
+➜  unix_tests ls -l
+total 48
+-r--r--r--  1 fmchtt  staff   124 16 Jul 08:26 bunch_of_things.txt
+-rw-r--r--@ 1 fmchtt  staff  1357 16 Jul 08:28 countries.txt
+-rw-------  1 fmchtt  staff  1481 16 Jul 08:31 new.txt
+-rw-r--r--  1 fmchtt  staff   124 16 Jul 08:26 phrases2.txt
+-rw-r--r--  1 fmchtt  staff    52 16 Jul 08:20 skills2.txt
+-rw-r--r--  1 fmchtt  staff    14 16 Jul 08:23 top_skills.txt
+➜  unix_tests chmod 644 bunch_of_things.txt
+➜  unix_tests ls -l
+total 48
+-rw-r--r--  1 fmchtt  staff   124 16 Jul 08:26 bunch_of_things.txt
+-rw-r--r--@ 1 fmchtt  staff  1357 16 Jul 08:28 countries.txt
+-rw-------  1 fmchtt  staff  1481 16 Jul 08:31 new.txt
+-rw-r--r--  1 fmchtt  staff   124 16 Jul 08:26 phrases2.txt
+-rw-r--r--  1 fmchtt  staff    52 16 Jul 08:20 skills2.txt
+-rw-r--r--  1 fmchtt  staff    14 16 Jul 08:23 top_skills.txt
