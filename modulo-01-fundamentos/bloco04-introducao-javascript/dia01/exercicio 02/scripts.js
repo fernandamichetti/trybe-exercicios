@@ -15,3 +15,15 @@ if (c > d) {
 } else {
   console.log(d)
 }
+/*Exercício 33*/
+let e = 5
+let f = 2
+let g = 20
+
+if (e > f && e > g) {
+  console.log(e)
+} else if (f > e && f > g) {
+  console.log(f)
+} else {
+  console.log(g)
+}
