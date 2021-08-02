@@ -37,3 +37,11 @@ console.log(
     player.medals.silver +
     ' medalhas de prata'
 )
+
+let cars = ['Saab', 'Volvo', 'BMW']
+
+for (let key in cars) {
+  console.log(cars[key])
+}
+
+console.log(cars)
