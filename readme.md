@@ -1,6 +1,6 @@
 # Trybe
 
-:rotating*light: If you are not a \_portuguese* speaker, you can find the _english_ version of this document [here](#english-version---trybe).
+:rotating_light: If you are not a \_portuguese* speaker, you can find the _english_ version of this document [here](#english-version---trybe).
 
 Este repositório contêm todas as atividades de aprendizagem que estão sendo desenvolvidas por [Maria Fernanda Michetti](https://www.linkedin.com/in/mariafernandamichetti/) enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket: (2021-2022).
 
