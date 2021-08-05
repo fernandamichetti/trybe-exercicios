@@ -27,3 +27,14 @@ if (e > f && e > g) {
 } else {
   console.log(g)
 }
+
+/*Exercício 4*/
+let number = 0
+
+if (number > 0) {
+  console.log('positive')
+} else if (number < 0) {
+  console.log('negative')
+} else {
+  console.log('ERROR')
+}

@@ -38,10 +38,11 @@ console.log(
     ' medalhas de prata'
 )
 
-let cars = ['Saab', 'Volvo', 'BMW']
-
-for (let key in cars) {
-  console.log(cars[key])
+let names = {
+  person1: 'João',
+  person2: 'Maria',
+  person3: 'Jorge'
 }
-
-console.log(cars)
+for (let saudacao in names) {
+  console.log('Olá ' + names[saudacao])
+}
