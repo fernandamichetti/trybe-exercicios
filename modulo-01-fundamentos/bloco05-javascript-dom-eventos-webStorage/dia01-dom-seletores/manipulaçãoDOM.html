@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+
+    <style>
+      main,
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Exercício 5.1 - JavaEscripito</h1>
+    </header>
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      function anotherText() {
+        let in2Years = document.getElementsByTagName('p')[1]
+        in2Years.innerText =
+          'Daqui dois anos me imagino morando no Canada, com meus dois cachorros e meu namorado (Até lá marido!) e trabalhando em uma empresa média/grande em um cargo de desenvolvedora plena'
+      }
+      anotherText()
+
+      function yellowToGreen() {
+        let yellowSquare = document.getElementsByClassName('main-content')[0]
+        yellowSquare.style.backgroundColor = 'rgb(76,164,109)'
+      }
+      yellowToGreen()
+
+      function redToWhite() {
+        let redSquare = document.getElementsByClassName('center-content')[0]
+        redSquare.style.backgroundColor = 'white'
+      }
+      redToWhite()
+
+      function correctingName() {
+        let newName = document.getElementsByClassName('title')[0]
+        newName.innerText = 'Exercício 5.1 - Javascript'
+      }
+      correctingName()
+
+      function upperCase() {
+        let text = document.getElementsByClassName('center-content')[0]
+        text.innerText = text.innerText.toUpperCase()
+      }
+      upperCase()
+
+      function showParagraph() {
+        let paragraphs = document.getElementsByTagName('p')
+        for (let i = 0; i < paragraphs.length; i += 1) {
+          console.log(paragraphs[i].innerText)
+        }
+      }
+      showParagraph()
+    </script>
+  </body>
+</html>
