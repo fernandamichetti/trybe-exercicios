@@ -32,7 +32,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 3-4: _HTML Semântico_
 
-:ballot_box_with_check: 3-5: _Projeto - Lesson Learned_
+:ballot_box_with_check: 3-5: [_Projeto - Lesson Learned_](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco03-introducao-html-css/Projeto-Final-Lessons-Learned)
 
 ### Bloco 4: [Introdução - JavaScript e Lógica](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco04-introducao-javascript)
 
@@ -44,7 +44,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 4-4: _JavaScript - Objetos e funções_
 
-:ballot_box_with_check: 4-5: _Projeto - Playground Functions_
+:ballot_box_with_check: 4-5: [_Projeto - Playground Functions_](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco04-introducao-javascript/Projeto-Final-Playground-Functions)
 
 ### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco05-javascript-dom-eventos-webStorage)
 
@@ -56,11 +56,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 5-4: _JavaScript - Web Storage_
 
-:ballot_box_with_check: 5.5: _Projeto: Arte com Pixels_
+:ballot_box_with_check: 5.5: [_Projeto: Arte com Pixels_](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco05-javascript-dom-eventos-webStorage/Projeto-Final01-Pixels-Art)
 
-:ballot_box_with_check: 5.6: _Projeto - Lista de tarefas_
+:ballot_box_with_check: 5.6: [_Projeto - Lista de tarefas_](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco05-javascript-dom-eventos-webStorage/Projeto-Final02-To-Do-List)
 
-### Bloco 6: [HTML & CSS avançado]((https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco06-forms-flexbox-responsividade)
+### Bloco 6: [HTML & CSS avançado](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco06-forms-flexbox-responsividade)
 
 :ballot_box_with_check: 6-1: _HTML & CSS - Forms_
 
