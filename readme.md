@@ -46,37 +46,31 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 :ballot_box_with_check: 4-5: _Projeto - Playground Functions_
 
-### Bloco 5: Javascript: DOM, Eventos e Web Storage
+### Bloco 5: [Javascript: DOM, Eventos e Web Storage](https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco05-javascript-dom-eventos-webStorage)
 
-:black_large_square: 5-1: _JavaScript - DOM e seletores_
+:ballot_box_with_check: 5-1: _JavaScript - DOM e seletores_
 
-:black_large_square: 5-2: _JavaScript - Trabalhando com elementos_
+:ballot_box_with_check: 5-2: _JavaScript - Trabalhando com elementos_
 
-:black_large_square: 5-3: _JavaScript - Eventos_
+:ballot_box_with_check: 5-3: _JavaScript - Eventos_
 
-:black_large_square: 5-4: _JavaScript - Web Storage_
+:ballot_box_with_check: 5-4: _JavaScript - Web Storage_
 
-:black_large_square: 5.5: _Projeto: Arte com Pixels_
+:ballot_box_with_check: 5.5: _Projeto: Arte com Pixels_
 
-:black_large_square: 5.6: _Projeto - Lista de tarefas_
+:ballot_box_with_check: 5.6: _Projeto - Lista de tarefas_
 
-:black_large_square: 5-7: _Projeto Bônus - Meme Generator_
+### Bloco 6: [HTML & CSS avançado]((https://github.com/fernandamichetti/trybe-exercicios/tree/master/modulo-01-fundamentos/bloco06-forms-flexbox-responsividade)
 
-:black_large_square: 5-7: _Projeto Bônus - Adivinhe a cor_
+:ballot_box_with_check: 6-1: _HTML & CSS - Forms_
 
-:black_large_square: 5-7: _Projeto Bônus - Carta Misteriosa_
+:ballot_box_with_check: 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 
-### Bloco 6: HTML & CSS avançado
+:ballot_box_with_check: 6-3: _CSS Flexbox - Parte 1_
 
-:black_large_square: 6-1: _HTML & CSS - Forms_
+:ballot_box_with_check: 6-4: _CSS Flexbox - Parte 2_
 
-:black_large_square: 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-
-:black_large_square: 6-3: _CSS Flexbox - Parte 1_
-
-:black_large_square: 6-4: _CSS Flexbox - Parte 2_
-
-:black_large_square: 6-5: _CSS Responsivo - Mobile First_
+:ballot_box_with_check: 6-5: _CSS Responsivo - Mobile First_
 
 :black_large_square: 6-6: _Projeto - Trybewarts_
 
