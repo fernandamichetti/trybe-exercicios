@@ -1,5 +1,5 @@
-//Parte 1
-
+// Parte 1
+// Exercício 1
 testingScope = escopo => {
 if (escopo === true) {
   let ifScope = 'Não devo ser utilizada fora do meu escopo (if)';
@@ -13,7 +13,7 @@ if (escopo === true) {
 
 testingScope(true)
 
-//Parte 2
+// Exercício 2
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
 const sortedOddsAndEvens = oddsAndEvens.sort(function(a,b) {
@@ -21,3 +21,30 @@ const sortedOddsAndEvens = oddsAndEvens.sort(function(a,b) {
 }); 
 
 console.log(`Os números ${sortedOddsAndEvens} se encontram ordenados de form crescente!`);
+
+// Parte 2
+// Exercício 1
+const fatorial = n => {
+  let result = 1;
+  for (let i = 2; i <=  n; i += 1) {
+    result *= i;
+  }
+
+  return result;
+}
+
+// Exercicio 2
+const longestWord = text => {
+let wordArray = text.split(' ');
+let maxLength = 0;
+let result = '';
+
+for (const word of wordArray) {
+    if (word.length > maxLength) {
+        maxLength = word.length;
+        result = word;
+    }
+}
+
+return result;
+}
