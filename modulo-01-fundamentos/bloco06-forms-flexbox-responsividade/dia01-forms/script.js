@@ -1,3 +1,5 @@
+// Fazer os estados aparecerem
+const creatingState = () => {
 const labelState = document.getElementById('state')
 const states = [
   'Acre',
@@ -34,4 +36,12 @@ for (i = 0; i < states.length; i += 1) {
   let oneState = document.createElement('option')
   oneState.innerHTML = statesList
   labelState.appendChild(oneState)
+};
+}
+
+creatingState();
+
+// Data validation
+const validation = () => {
+
 }
