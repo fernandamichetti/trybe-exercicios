@@ -8,26 +8,33 @@
 </head>
 <body>
   <h1> Currículo</h1>
-  <form> 
+
+  <form>
     <fieldset>
-      <div> 
+
+      <div>
       <label for="name">Nome: </label>
-      <input type="text" name="nome" id="name" maxlength="40" required> 
+      <input type="text" name="nome" id="name" maxlength="40" required>
     </div>
-    <div> 
+
+    <div>
       <label for="text">Email:</label>
       <input type="text" name="email" id="email" maxlength="50" required>
     </div>
-    <div> 
+
+    <div>
       <label for="city">Cidade:</label>
       <input type="text" name="city" id="city" maxlength="28" required>
     </div>
-    <div> 
+
+    <div>
 <label for="state">Estado:</label>
 <select name="state" id="state" required>
   <option disabled selected value>Selecione seu estado</option>
 </select>
 </div>
+
+<div>
 <legend>Tipo de residência</legend>
 <input type="radio" name="type" id="type-house" value="house" required>
 <label for="type-house">Casa</label>
@@ -35,24 +42,31 @@
 <label for="type-apt">Apartamento</label>
 </div>
     </fieldset>
+
     <fieldset>
-      <div> 
+
+      <div>
       <p>Resumo do currículo:</p>
       <textarea maxlength="1000" required id='about-you'> </textarea>
       </div>
+
       <div>
       <label for='job'>Cargo atual:</label>
       <input type='text' maxlength="40" required id='job'>
     </div>
-    <div> 
+
+    <div>
       <label for='description-job'>Descrição do Cargo:</label>
       <input type='text' id='description-job' maxlength="500" required>
     </div>
+
     <div>
       <label for='date'>Data de início:</label>
-      <input type='text' id='date' required> 
-    </div>   
+      <input type='text' id='date' required>
+    </div>
+
   </fieldset>
+
   <button>Enviar currículo</button>
   </form>
 </body>
