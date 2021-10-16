@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.greg {
+  width: 100px;
+  color: blue;
+  padding: 0px 20px 10px 10px;
+}
+
+.jager {
+width: 100px;
+color: red;
+padding: 0px 20px 10px 10px;
+}
+
+.lupin {
+  width: 100px;
+  color: green;
+  padding: 0px 20px 10px 10px;
+}
