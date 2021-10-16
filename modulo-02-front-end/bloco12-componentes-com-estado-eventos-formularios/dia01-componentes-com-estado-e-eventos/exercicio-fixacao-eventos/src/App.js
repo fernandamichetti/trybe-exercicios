@@ -1,10 +1,6 @@
 import './App.css';
 import React from 'react';
 
-function clickOne() {
-  console.log('Greg, te amo!')
-}
-
 function clickTwo() {
   console.log('Jager, te amo!')
 }
@@ -14,10 +10,19 @@ function clickThree() {
 }
 
 class App extends React.Component {
+constructor () {
+  super()
+  this.clickOne = this.clickOne.bind(this)
+}
+
+clickOne() {
+  console.log('Greg, te amo!')
+}
+
   render() {
 return (
 <div>
-<button onClick={clickOne} className='greg'>Clica aqui primeiro!</button>
+<button onClick={this.clickOne} className='greg'>Clica aqui primeiro!</button>
 
 <button onClick={clickTwo} className='jager'>Clica aqui depois!</button>
 
